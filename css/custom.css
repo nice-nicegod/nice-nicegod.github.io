@@ -1,10 +1,10 @@
 /* 覆盖 CSS 变量 - 卡片背景色 */
 :root {
-  --card-bg: rgba(255, 255, 255, 0.55) !important;
+  --card-bg: rgba(255, 255, 255, 0.35) !important;
 }
 
 [data-theme="dark"] {
-  --card-bg: rgba(30, 30, 30, 0.55) !important;
+  --card-bg: rgba(30, 30, 30, 0.35) !important;
 }
 
 /* 主页文章卡片容器透明效果 */
@@ -23,7 +23,7 @@
 
 /* 侧边栏卡片透明效果 */
 #aside-content .card-widget {
-  background: rgba(255, 255, 255, 0.75) !important;
+  background: rgba(255, 255, 255, 0.35) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
 }
@@ -34,7 +34,7 @@
 #archive,
 #tag,
 #category {
-  background: rgba(255, 255, 255, 0.75) !important;
+  background: rgba(255, 255, 255, 0.35) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
 }
@@ -48,18 +48,18 @@
 [data-theme="dark"] #archive,
 [data-theme="dark"] #tag,
 [data-theme="dark"] #category {
-  background: rgba(30, 30, 30, 0.75) !important;
+  background: rgba(30, 30, 30, 0.55) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
 }
 
 /* 文章页面透明效果 */
 #post {
-  background: rgba(255, 255, 255, 0.85) !important;
+  background: rgba(255, 255, 255, 0.55) !important;
   backdrop-filter: blur(10px) !important;
   -webkit-backdrop-filter: blur(10px) !important;
 }
 
 [data-theme="dark"] #post {
-  background: rgba(30, 30, 30, 0.85) !important;
+  background: rgba(30, 30, 30, 0.55) !important;
 }
